@@ -1,0 +1,7 @@
+// .lintstagedrc.json
+{
+  "*.{js,jsx,ts,tsx,css,scss,md}": [
+    "prettier --write",
+    "eslint --fix"
+  ]
+}
